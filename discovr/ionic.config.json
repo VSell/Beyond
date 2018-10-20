@@ -1,0 +1,8 @@
+{
+  "name": "discovr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "cd1ab0ca"
+}
