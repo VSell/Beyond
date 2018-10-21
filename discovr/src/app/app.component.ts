@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 
 import { HomePage } from '../pages/home/home';
+import { Main } from '../pages/main/main';
 import { AkvoDialogue } from '../pages/akvo/akvo';
 
 import { CategoriesMem } from '../pages/cat_memory/cat_memory';
@@ -26,7 +27,7 @@ import { VideoPuzzle } from '../pages/vid_puzzle/vid_puzzle';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = Main;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AkvoDialogue } from '../pages/akvo/akvo';
+import { Main } from '../pages/main/main';
 import { CategoriesMem } from '../pages/cat_memory/cat_memory';
 import { CategoriesTri } from '../pages/cat_trivia/cat_trivia';
 import { MemoryStage1 } from '../pages/memory1/memory1';
@@ -33,6 +34,7 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 MyApp,
                 HomePage,
+                Main,
                 AkvoDialogue,
                 CategoriesMem,
                 CategoriesTri,
@@ -56,6 +58,7 @@ var AppModule = /** @class */ (function () {
             entryComponents: [
                 MyApp,
                 HomePage,
+                Main,
                 AkvoDialogue,
                 CategoriesMem,
                 CategoriesTri,
