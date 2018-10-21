@@ -15,5 +15,8 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-ion-content {background-image src= "./imgs/bey.png");;
+.background{
+   background-image: url('./assets/imgs/bey.png');
+   background-size: cover;
+   background-attachment: fixed; 
 }
