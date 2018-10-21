@@ -50,7 +50,7 @@ var AppModule = /** @class */ (function () {
                 SavedTrivia,
                 VideoMemory,
                 VideoPuzzle,
-                VideoTrivia
+                VideoTrivia,
             ],
             imports: [
                 BrowserModule,
@@ -75,7 +75,7 @@ var AppModule = /** @class */ (function () {
                 SavedTrivia,
                 VideoMemory,
                 VideoPuzzle,
-                VideoTrivia
+                VideoTrivia,
             ],
             providers: [
                 StatusBar,
