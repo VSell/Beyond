@@ -69,7 +69,7 @@ var AppModule = /** @class */ (function () {
                 SavedPuzzle,
                 SavedTrivia,
                 VideoMemory,
-                VideoPuzzle,
+                VideoPuzzle
             ],
             providers: [
                 StatusBar,
