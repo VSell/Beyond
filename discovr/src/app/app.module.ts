@@ -9,7 +9,6 @@ import { HomePage } from '../pages/home/home';
 import { AkvoDialogue } from '../pages/akvo/akvo';
 
 import { CategoriesMem } from '../pages/cat_memory/cat_memory';
-import { CategoriesPuz } from '../pages/cat_puzzle/cat_puzzle';
 import { CategoriesTri } from '../pages/cat_trivia/cat_trivia';
 import { MemoryStage1 } from '../pages/memory1/memory1';
 import { MemoryStage2 } from '../pages/memory2/memory2';
@@ -22,7 +21,6 @@ import { SavedPuzzle } from '../pages//saved_puzzle/saved_puzzle';
 import { SavedTrivia } from '../pages/saved_trivia/saved_trivia';
 import { VideoMemory } from '../pages/vid_memory/vid_memory';
 import { VideoPuzzle } from '../pages/vid_puzzle/vid_puzzle';
-import { VideoTrivia } from '../pages/vid_trivia/vid_trivia';
 
 
 @NgModule({
@@ -31,7 +29,6 @@ import { VideoTrivia } from '../pages/vid_trivia/vid_trivia';
     HomePage,
     AkvoDialogue,
     CategoriesMem,
-    CategoriesPuz,
     CategoriesTri,
     MemoryStage1,
     MemoryStage2,
@@ -43,8 +40,7 @@ import { VideoTrivia } from '../pages/vid_trivia/vid_trivia';
     SavedPuzzle,
     SavedTrivia,
     VideoMemory,
-    VideoPuzzle,
-    VideoTrivia
+    VideoPuzzle
   ],
   imports: [
     BrowserModule,
@@ -56,7 +52,6 @@ import { VideoTrivia } from '../pages/vid_trivia/vid_trivia';
     HomePage,
     AkvoDialogue,
     CategoriesMem,
-    CategoriesPuz,
     CategoriesTri,
     MemoryStage1,
     MemoryStage2,
@@ -68,8 +63,7 @@ import { VideoTrivia } from '../pages/vid_trivia/vid_trivia';
     SavedPuzzle,
     SavedTrivia,
     VideoMemory,
-    VideoPuzzle,
-    VideoTrivia
+    VideoPuzzle
   ],
   providers: [
     StatusBar,
